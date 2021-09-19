@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppAad.Api", "FunctionAppAad.Api.csproj", "{3B89142E-70A4-4A73-AD3F-A53F9BD02B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppAad.Api", "FunctionAppAad.Api\FunctionAppAad.Api.csproj", "{BB64B5A2-DBB1-4216-B56A-EEE613823568}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{DC8E07C8-9896-4B89-BCA6-B2BED80D8A68}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{759749C8-76FE-4BD1-B56F-C4286F57ECD3}"
 	ProjectSection(SolutionItems) = preProject
-		..\.gitignore = ..\.gitignore
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Global
@@ -16,15 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3B89142E-70A4-4A73-AD3F-A53F9BD02B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B89142E-70A4-4A73-AD3F-A53F9BD02B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B89142E-70A4-4A73-AD3F-A53F9BD02B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B89142E-70A4-4A73-AD3F-A53F9BD02B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB64B5A2-DBB1-4216-B56A-EEE613823568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB64B5A2-DBB1-4216-B56A-EEE613823568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB64B5A2-DBB1-4216-B56A-EEE613823568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB64B5A2-DBB1-4216-B56A-EEE613823568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0A3D94A1-112F-4FB1-BA11-D8E6FAC88471}
+		SolutionGuid = {6C43535F-CFB7-4E0F-BEF1-EBEAD78E9D59}
 	EndGlobalSection
 EndGlobal

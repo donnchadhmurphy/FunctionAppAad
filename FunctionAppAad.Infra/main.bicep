@@ -178,3 +178,11 @@ module roleAssignmentCosmos 'modules/rbac/cosmos.bicep' = {
     cosmos
   ]
 }
+
+module customRole 'modules/rbac/cutomRole.bicep' = {
+  name: 'RoleAssignment_FunctionApp_CustomRole'
+  params: {
+    principalId: functionApp.outputs.managedIdentityPrincipalId
+    functionAppResourceName: functionAppResourceName
+  }
+}
